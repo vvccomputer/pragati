@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pragati – Frontend Developer</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="portfolio.css" rel="stylesheet">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background: linear-gradient(180deg,#f7f7f7,#ffffff);
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar">
+  <div class="logo">Pragati<span></span></div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="#">Services</a>
+    <a href="#">My Work</a>
+    <a href="#">Contact me</a>
+  </div>
+
+  <a href="#" class="contact-btn-top">Contact ↗</a>
+</nav>
+
+<!-- ============ HERO SECTION ============ -->
+<section class="hero">
+
+  <!-- Replace image path with your real profile photo -->
+  <img src="myimage.jpeg" alt="Profile" class="profile-img">
+
+  <div class="intro">Hi! I'm Pragati Kalwade 👋</div>
+
+  <h1>frontend web developer<br></h1>
+
+  <p class="desc">
+   I am a front-end development student from India with hands-on experience in building responsive websites using HTML, CSS, and JavaScript.
+  </p>
+
+  <div class="btn-group">
+    <a href="#" class="btn-primary">contact me →</a>
+    <a href="#" class="btn-secondary">my resume ⬇</a>
+  </div>
+
+</section>
+<!---------About me ----------->
+<section class="container">
+
+  <div class="section-head">
+    <small>INTRODUCTION</small>
+    <h2>About me</h2>
+  </div>
+
+  <div class="about-grid">
+
+    <!-- LEFT IMAGE -->
+    <div class="photo-wrap">
+      <img class="photo"
+        src="myimage.jpeg" 
+        alt="profile">
+
+      <div class="badge">
+        👩‍💻
+      </div>
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div>
+
+      <p class="about-text">
+      I am an aspiring Frontend Developer with a strong foundation in web technologies. Through academic learning and project-based experience, I have worked on developing responsive and user-friendly web applications.
+      </p>
+
+      <div class="card-row">
+
+        <div class="card">
+          <div class="card-icon">&lt;/&gt;</div>
+          <h4>Languages</h4>
+          <p>
+            HTML, CSS, JavaScript<br>
+            
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🎓</div>
+          <h4>Education</h4>
+          <p>B.Sc in Computer Science</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💼</div>
+          <h4>Projects</h4>
+          <p>Built 1 projects</p>
+        </div>
+
+      </div>
+<!-- 
+      <div class="tools-title">Tools I use</div> -->
+
+      <!-- <div class="tools">
+        <div class="tool">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+        </div>
+        <div class="tool">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg">
+        </div>
+        <div class="tool">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
+        </div>
+        <div class="tool">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+        </div>
+        <div class="tool">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+        </div>
+      </div> -->
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="container">
+
+  <div class="section-head">
+    <small>What i offer</small>
+    <h2>My services</h2>
+    <p>
+      I am a front-end development student from India with hands-on experience in building responsive websites using HTML, CSS, and JavaScript.
+    </p>
+  </div>
+
+  <div class="services-grid">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="icon-box">
+        <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/world.svg">
+      </div>
+      <h3>Web design</h3>
+      <p>
+        Web development is the process of building, programming and maintaining websites.
+      </p>
+      <a href="#" class="read">Read more <span>→</span></a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="icon-box">
+        <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/device-mobile.svg">
+      </div>
+      <h3>UI Design</h3>
+      <p>
+        Simple and attractive user interface designs for websites.
+      </p>
+      <a href="#" class="read">Read more <span>→</span></a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="icon-box">
+        <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/brush.svg">
+      </div>
+      <h3>Responsive Design</h3>
+      <p>
+        Build mobile-friendly layouts that work smoothly across desktops, tablets, and smartphones.
+      </p>
+      <a href="#" class="read">Read more <span>→</span></a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="icon-box">
+        <img src="https://cdn.jsdelivr.net/gh/tabler/tabler-icons/icons/photo.svg">
+      </div>
+      <h3>Project Support</h3>
+      <p>
+        Provide frontend development support for school and college mini-projects and assignments.
+      </p>
+      <a href="#" class="read">Read more <span>→</span></a>
+    </div>
+
+  </div>
+
+</section>
+<section class="container">
+
+  <div class="head">
+    <small>My portfolio</small>
+    <h2>My latest work</h2>
+    <p>
+      Welcome to my web development portfolio! Explore a collection of projects
+      showcasing my expertise in front-end development.
+    </p>
+  </div>
+
+  <div class="grid">
+
+    <!-- Card 1 -->
+    <div class="work-card">
+      <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800">
+      <div class="overlay">
+        <div>
+          <h4>Frontend project</h4>
+          <p>Web Design</p>
+        </div>
+        <div class="arrow">➜</div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="work-card">
+      <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800">
+      <div class="overlay">
+        <div>
+          <h4>School / College Website</h4>
+          <p>Web Design</p>
+        </div>
+        <div class="arrow">➜</div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="work-card">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800">
+      <div class="overlay">
+        <div>
+          <h4>Personal Portfolio Website</h4>
+          <p>Web Design</p>
+        </div>
+        <div class="arrow">➜</div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="work-card">
+      <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800">
+      <div class="overlay">
+        <div>
+          <h4>UI/UX designing</h4>
+          <p>UI/UX Design</p>
+        </div>
+        <div class="arrow green">➜</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="more-wrap">
+    <button class="more-btn">Show more →</button>
+  </div>
+
+</section>
+
+<section class="container">
+
+  <div class="contact-head">
+    <h2>Get in touch</h2>
+    <p>
+      I'd love to hear from you! If you have any questions, comments or feedback,
+      please use the form below.
+    </p>
+  </div>
+
+  <form>
+
+    <div class="form-grid">
+      <input class="input" placeholder="Enter your name">
+      <input class="input" placeholder="Enter your email">
+      <textarea class="textarea" placeholder="Enter your message"></textarea>
+    </div>
+
+    <!-- Captcha UI replica -->
+    <!-- <div class="captcha">
+      <div class="cap-left">
+        <div class="cap-box"></div>
+        <div class="cap-text">I am human</div>
+      </div>
+
+      <div class="cap-logo">
+        <strong>hCaptcha</strong>
+        Privacy · Terms
+      </div>
+    </div> -->
+
+    <div class="submit-wrap">
+      <button class="submit-btn">
+        Submit now →
+      </button>
+    </div>
+
+  </form>
+
+</section>
+
+
+</body>
+</html>
